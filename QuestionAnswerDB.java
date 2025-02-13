@@ -117,7 +117,7 @@ public class QuestionAnswerDB {
             pstmt.setInt(1, id);
             int rowsDeleted = pstmt.executeUpdate();
             if (rowsDeleted > 0) {
-                System.out.println("✅ Successfully deleted question with ID: " + id);
+                System.out.println(" Successfully deleted question with ID: " + id);
             } else {
                 System.out.println(" Failed to delete question. It may not exist.");
             }
